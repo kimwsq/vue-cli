@@ -8,7 +8,7 @@
   stages {
     stage('Clone Sources') {
       steps {
-        git 'https://gitlab.com/chiminyau/ci-test.git'
+        git 'https://github.com/kimwsq/vue-cli.git'
       }
     }
     stage('Information') {
